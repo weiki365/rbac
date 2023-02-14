@@ -1,0 +1,15 @@
+{
+    "name": "weiki/rbac",
+    "autoload": {
+        "psr-4": {
+            "Weiki\\Rbac\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "weiki",
+            "email": "happy_gzg@126.com"
+        }
+    ],
+    "require": {}
+}

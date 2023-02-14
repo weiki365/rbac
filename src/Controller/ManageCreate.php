@@ -23,6 +23,7 @@ class ManageCreate
         $model->login_number    = 0;
         $model->login_time      = 0;
         $model->login_last_time = 0;
+        $model->status          = 1;
         $model->create_time     = $time;
 
         if (!empty($roleids)) {
@@ -31,7 +32,7 @@ class ManageCreate
                     'roleid'      => $roleid,
                     'manageid'    => & $manageid,
                     'create_time' => $time,
-                    'delete_time' => $time,
+                    'delete_time' => 0,
                 ];
             }
         }
